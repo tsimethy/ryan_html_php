@@ -1,0 +1,46 @@
+#container3 {
+    float:left;
+    width:100%;
+    background:green;
+}
+#container2 {
+    float:left;
+    width:100%;
+    background:yellow;
+    position: relative;
+    right: 30%;
+}
+#container1 {
+    float:left;
+    width:100%;
+    background:red;
+    position: relative;
+    right: 40%;
+ 
+}
+#col1 {
+    float:left;
+    width:30%;
+	position: relative;
+    left: 70%;
+}
+#col2 {
+    float:left;
+    width:40%;
+	position: relative;
+    left: 70%;
+}
+#col3 {
+    float:left;
+    width:30%;
+	position: relative;
+    left: 70%;
+}
+
+#col {
+	 background:#6699FF;
+}
+
+#grey{
+	background:#CCCCCC;
+}

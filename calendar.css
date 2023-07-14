@@ -1,0 +1,155 @@
+ .divTable
+    {
+		display:table;    
+		border:1px solid #aaa;
+		border-collapse:collapse;
+		background-color:#fff;
+		font-family: Verdana;
+		font-size:12px;
+		border-spacing:5px;
+    }
+
+    .divRow
+    {
+       display:table-row;
+       width:auto;
+	     clear:both;
+    }
+
+    .headRow
+    {
+       width:auto;
+	    background-color:#BAD5F2;
+		border:1px solid #fff;
+		text-align:center;
+		height:45px;
+		padding-top:20px;
+    }
+	.headCell
+    {
+        float:left;/*fix for  buggy browsers*/
+        background-color:#ccc;
+		border:1px solid #fff;
+		height:45px;
+		width:90px;
+		padding-top:20px;
+    }
+    .divCell
+    {
+        float:left;/*fix for  buggy browsers*/
+        display:table-cell;
+        background-color:#ccc;
+		border:1px solid #fff;
+		min-height: 30px;
+		width:30%;
+
+    }
+	
+	
+#container7 {
+    float:left;
+    width:100%;
+    background:#CCCCCC;
+}
+#container6 {
+    float:left;
+    width:100%;
+    position: relative;
+    right: 14%;
+}
+#container5 {
+    float:left;
+    width:100%;
+    position: relative;
+    right: 14%;
+}
+#container4 {
+    float:left;
+    width:100%;
+    position: relative;
+    right: 14%;
+}
+
+#container3 {
+    float:left;
+    width:100%;
+    position: relative;
+    right: 14%;
+}
+
+#container2 {
+    float:left;
+    width:100%;
+    position: relative;
+    right: 14%;
+}
+
+#container1 {
+    float:left;
+    width:100%;
+    position: relative;
+    right: 18%;
+}
+
+
+#col1 {
+    float:left;
+    width:14%;
+	position: relative;
+    left: 90%;
+	border-top: 1px solid #fff;
+    background:#CCCCCC;
+}
+#col2 {
+    float:left;
+    width:14%;
+	position: relative;
+    left: 90%;
+	border-top: 1px solid #fff;
+    background:#CCCCCC;
+}
+#col3 {
+    float:left;
+    width:14%;
+	position: relative;
+    left: 90%;
+	border-top: 1px solid #fff;
+    background:#CCCCCC;
+}
+#col4 {
+    float:left;
+    width:14%;
+	position: relative;
+    left: 90%;
+	border-top: 1px solid #fff;
+    background:#CCCCCC;
+}
+#col5 {
+    float:left;
+    width:14%;
+	position: relative;
+    left: 90%;
+	border-top: 1px solid #fff;
+    background:#CCCCCC;
+}
+
+#col6 {
+    float:left;
+    width:14%;
+	position: relative;
+    left: 90%;
+	border-top: 1px solid #fff;
+    background:#CCCCCC;
+}
+
+#col7 {
+    float:left;
+    width:14%;
+	position: relative;
+    left: 90%;
+	border-top: 1px solid #fff;
+    background:#CCCCCC;
+}
+
+
+	

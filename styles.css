@@ -1,0 +1,281 @@
+div.outer {
+	border:2px solid gray;
+	height : 1500px;
+	display: inline-block;
+
+}
+.inner{
+	border-bottom:4px solid gray;
+    padding:10px;
+    box-sizing: border-box;
+}
+.childBox{
+	border :1px solid black;
+	box-sizing: border-box;
+}
+
+.brandColor{
+	background-color: #BAD5F2;
+}
+
+.innerTextPadding{
+	padding:10px;
+}
+
+.innerTextCenter{
+	text-align: center;
+}
+
+.subHeading {
+	font-weight: bold;
+}
+
+.copyright {
+	padding:10px;
+	font-style: italic;
+	font-size:10px;
+}
+
+.flex {
+	display: flex;
+}
+
+.width30 {
+	width: 30%;
+}
+
+.width50 {
+	width: 50%;
+}
+
+.width70 {
+	width: 70%;
+}
+
+.width100 {
+	width: 100%;
+}
+
+.height20 {
+	height: 20%;
+}
+
+.height50 {
+	height: 50%;
+}
+
+.height70 {
+	height: 70%;
+}
+
+.height100 {
+	height: 100%;
+}
+
+.height120PX {
+	height: 120px;
+}
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 29, 2020, 8:32:14 PM
+    Author     : Test
+*/
+
+.fall_activities {
+    display : flex;
+    font-family: serif;
+    font-size: 30px;
+    color: blue;
+    margin : 5px;
+    padding: 5px;
+    border-style: solid;
+}
+.left {
+    display: flex;
+    flex-basis: 20%; 
+    background-color: beige;
+}
+.right {
+    display : flex;
+    flex-basis: 80%;
+    flex-direction: column;
+    background-color: yellow;
+}
+
+.first_box {
+  display : flex;
+  flex-direction: row;
+  flex-basis : 50%;
+  background-color : azure;
+  border-style : solid;
+}
+.seven_box {
+  display : flex;
+  flex-direction: row;
+  flex-basis : 11%;
+  background-color : azure;
+  border-style : solid;
+}
+.description {
+    font-family: sans-serif;
+    font-size: 25px;
+    color: red;
+}
+.flex_container {
+  display: flex;
+  flex-direction: row;
+  background: DodgerBlue;
+}
+.flex_container_footer {
+  display: flex;
+  flex-direction: row;
+  background: yellow;
+  border-style: solid;
+  
+}
+.outer {
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+    outline-color: blue;
+    border-style: solid;
+}
+.two_box {
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+    outline-color: blue;
+    border-style: solid;
+}
+.right_container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-shrink: 1;
+    flex-grow: 1;
+    margin: 1px;
+    padding: 1px;
+    border: aqua;
+    flex-basis: 100%;
+}
+.left_container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-shrink: 1;
+    flex-grow: 1;
+    margin: 0px;
+    padding: 0px;
+    background: yellow;
+    flex-basis: 20%;
+}
+.left_container1 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-shrink: 1;
+    flex-grow: 1;
+    margin: 1px;
+    padding: 1px;
+    background: yellow;
+    flex-basis: 40%;
+}
+.left_container2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-shrink: 1;
+    flex-grow: 1;
+    margin: 1px;
+    padding: 1px;
+    background: yellow;
+    flex-basis: 40%;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-shrink: 1;
+    flex-grow: 1;
+    margin: 1px;
+    background: yellow;
+    flex-basis: 80%;
+}
+.nav_links {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-shrink: 1;
+    flex-grow: 1;
+    margin: 0px;
+    background: yellow;
+    flex-basis: 20%;
+}
+.footer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-shrink: 1;
+    flex-grow: 1;
+    margin: 1px;
+    padding: 1px;
+    background: yellow;
+    flex-basis: 80%;
+}
+
+/* DivTable.com */
+.divTable{
+	display: table;
+	width: 100%;
+}
+.divTableRow {
+	display: table-row;
+}
+.divTableHeading {
+	background-color: #EEE;
+	display: table-header-group;
+}
+.divTableCell, .divTableHead {
+	border: 1px solid #999999;
+	display: table-cell;
+	padding: 3px 10px;
+}
+.divTableHeading {
+	background-color: #EEE;
+	display: table-header-group;
+	font-weight: bold;
+}
+.divTableFoot {
+	background-color: #EEE;
+	display: table-footer-group;
+	font-weight: bold;
+}
+.divTableBody {
+	display: table-row-group;
+}
+.multiSelect {
+	height: 250px;
+}
+
+.is_error {
+	color: red;
+}
+
+.is_success {
+	color: green;
+}
+
+.primaryButton {
+	background-color:rgb(26, 115, 232);
+	color:white;
+	border-width: 0px; 
+    height: 30px;
+}

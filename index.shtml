@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html xml:lang="en" lang="en" xmlns="http://www.w3.org/1999/xhtml"> 
+    <head>
+        <title>PHP HTML SAMPLES</title>
+
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+
+    <body>
+
+        <div class = "flex">
+            <div class="outer width30 brandColor">
+			<!--#include virtual="menuDivision.inc" -->
+            </div>
+            <div class="outer width70">
+                <div class="inner width100 height120PX  brandColor">
+					<!--#include virtual="headerDivision.php" -->
+                </div>
+                <div class="inner flex width100 height70">
+                    <div  class=" width100 flex height100">
+                        <div class="width50 height100">
+                            <div class= "width100 childBox height50">
+                                <img src="Photo.png" alt="Ryan Simethy Photo" />
+                            </div>
+
+                            <div class="width100 childBox height50">
+                                <div class="subHeading">Summary</div>
+                                <ul>
+                                    <li><b>Personal</b><br>I am Ryan Simethy.</li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="width50 height100 childBox">
+                            <div class="subHeading">Professional & Personal Details</div><br />
+                            Ancestral information including home town, country, and ancestral details: Originally from Mumbai, India and moved to USA for bachelors degree.
+                        </div>
+                    </div>
+                </div>
+                <div> <!--#include virtual="copyrightDivision.inc" --></div>
+            </div>
+        </div>
+    </body>
+</html>
